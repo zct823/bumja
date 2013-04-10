@@ -212,6 +212,7 @@
 
 -(void)backToHomeVC
 {
+    /* Abandoned
     NewsViewController *newsVC = [[NewsViewController alloc] init];
     
     // Manually change the selected tabButton
@@ -228,6 +229,8 @@
     }
     
     [mydelegate.homeNavController pushViewController:newsVC animated:NO];
+     */
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 # pragma mark - Report Button
