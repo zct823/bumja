@@ -63,8 +63,12 @@
 @property (retain, nonatomic) IBOutlet UIButton *shareFBButton;
 @property (retain, nonatomic) IBOutlet UIButton *shareTwitterButton;
 @property (retain, nonatomic) IBOutlet UIButton *shareEmailButton;
-@property (nonatomic,retain) IBOutlet UIButton *btnUnfollow;
-@property (nonatomic,retain) IBOutlet UIButton *btnFav;
+
+@property (nonatomic, retain) IBOutlet UIButton *btnUnfollow;
+@property (nonatomic, retain) IBOutlet UIButton *btnFav;
+@property (nonatomic) NSInteger subscriptionStatus;
+@property (nonatomic) NSInteger detectedCatID;
+
 @property (retain, nonatomic) IBOutlet UIView *blankView;
 @property (retain, nonatomic) IBOutlet UILabel *label;
 @property (retain, nonatomic) IBOutlet UIActivityIndicatorView *activity;

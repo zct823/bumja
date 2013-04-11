@@ -502,7 +502,7 @@
 						<string key="NSFrame">{{89, 170}, {50, 45}}</string>
 						<reference key="NSSuperview" ref="52783124"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="677799883"/>
+						<reference key="NSNextKeyView" ref="183142440"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -572,7 +572,7 @@
 						<reference key="IBUIFontDescription" ref="871723081"/>
 						<reference key="IBUIFont" ref="928878964"/>
 					</object>
-					<object class="IBUIButton" id="677799883">
+					<object class="IBUIButton" id="183142440">
 						<reference key="NSNextResponder" ref="52783124"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{182, 170}, {50, 45}}</string>
@@ -919,7 +919,7 @@
 							<reference ref="135613848"/>
 							<reference ref="280560604"/>
 							<reference ref="817485111"/>
-							<reference ref="677799883"/>
+							<reference ref="183142440"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -1056,7 +1056,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">119</int>
-						<reference key="object" ref="677799883"/>
+						<reference key="object" ref="183142440"/>
 						<reference key="parent" ref="52783124"/>
 					</object>
 				</array>

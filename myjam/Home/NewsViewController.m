@@ -197,6 +197,8 @@
     NSString *status = nil;
     NSMutableArray* list = nil;
     
+    NSLog(@"dataContent: %@",resultsDictionary);
+    
     if([resultsDictionary count])
     {
         status = [resultsDictionary objectForKey:@"status"];
